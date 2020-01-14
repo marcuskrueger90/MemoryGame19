@@ -9,7 +9,7 @@ export default function Card({handleClick, id, type, flipped, solved, height, wi
     style = {{
         width, height
     }}
-    onCLick={()=>disabled ? null: handleClick(id)}
+    onClick={()=>disabled ? null: handleClick(id)}
     >
     <div className='flipper'>
         <img
